@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative flex items-center justify-center h-screen overflow-hidden">
       <img
-        src="/bg-prida.png"
+        src="/bg-prida.webp"
         alt="Misty landscape background"
         className="absolute inset-0 object-cover w-full h-full"
       />
@@ -14,7 +14,7 @@ export default function Hero() {
           style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           <img
-            src="/prida-icon.png"
+            src="/prida-icon.webp"
             alt="Prida Icon"
             className="inline-block w-8 h-8 align-middle"
           />
