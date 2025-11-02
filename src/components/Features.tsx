@@ -75,7 +75,7 @@ export default function Features() {
                 className="group p-8 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 hover:shadow-xl"
               >
                 <div
-                  className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${feature.color} mb-4 group-hover:scale-110 transition-transform duration-300`}
+                  className={`inline-flex p-3 rounded-xl bg-linear-to-br ${feature.color} mb-4 group-hover:scale-110 transition-transform duration-300`}
                 >
                   <Icon className="w-6 h-6 text-white" />
                 </div>

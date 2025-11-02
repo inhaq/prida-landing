@@ -8,9 +8,9 @@ export default function Hero() {
         alt="Misty landscape background"
         className="absolute inset-0 object-cover w-full h-full"
       />
-      <div className="absolute inset-0 backdrop-blur-[2px]">
+      <div className="absolute inset-0 backdrop-blur-[1px]">
         <div
-          className="flex items-center justify-center gap-1 mt-10 animate-fade-in"
+          className="flex items-center justify-center gap-1 mt-16 animate-fade-in"
           style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           <img
@@ -32,10 +32,16 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/30 to-black/0 "></div>
+      <div className="absolute inset-0 bg-linear-to-b from-black/0 via-black/30 to-black/0 "></div>
 
       <div className="relative px-4 mt-6 max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center ">
+          <div
+            className="inline-flex items-center px-4 py-2 mb-10 text-sm font-medium border rounded-full text-white/70 bg-white/10 backdrop-blur-sm border-white/20 animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
+          >
+            Free. Secure. No Sign-Up. Always Ready.
+          </div>
           <h1
             className="mb-4 text-2xl font-light tracking-normal text-white/80 sm:text-6xl animate-fade-in-up"
             style={{
@@ -48,7 +54,7 @@ export default function Hero() {
           </h1>
 
           <p
-            className="max-w-2xl mx-auto mt-8 mb-12 text-xl font-normal text-white/60 sm:text-base lg:text-xl animate-fade-in"
+            className="max-w-2xl mx-auto mt-8 mb-12 text-xl font-normal leading-relaxed text-white/80 sm:text-base lg:text-xl animate-fade-in"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
           >
             Prida reads the form, understands what’s being asked, and combines
@@ -80,7 +86,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/20 to-transparent"></div>
     </section>
   );
 }

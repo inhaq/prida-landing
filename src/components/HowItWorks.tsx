@@ -33,24 +33,24 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section className="py-24 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-bold sm:text-5xl text-slate-900">
             Get Started in Seconds
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto text-xl text-slate-600">
             No complex setup, no learning curve—just install and start saving
             time
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
               <div key={index} className="relative">
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-slate-300 to-transparent -ml-4"></div>
+                  <div className="hidden lg:block absolute top-12 left-full w-full h-0.5 bg-linear-to-r from-slate-300 to-transparent -ml-4"></div>
                 )}
 
                 <div className="text-center">
@@ -60,12 +60,12 @@ export default function HowItWorks() {
                     >
                       <Icon className="w-10 h-10 text-white" />
                     </div>
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                    <div className="absolute flex items-center justify-center w-8 h-8 text-sm font-bold text-white rounded-full -top-2 -right-2 bg-slate-900">
                       {index + 1}
                     </div>
                   </div>
 
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">
+                  <h3 className="mb-3 text-xl font-bold text-slate-900">
                     {step.title}
                   </h3>
                   <p className="text-slate-600">{step.description}</p>

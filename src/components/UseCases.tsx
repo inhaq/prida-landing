@@ -37,7 +37,7 @@ const useCases = [
 
 export default function UseCases() {
   return (
-    <section className="py-24 bg-gradient-to-br from-slate-900 to-slate-800">
+    <section className="py-24 bg-linear-to-br from-slate-900 to-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
@@ -58,7 +58,7 @@ export default function UseCases() {
                 className="group p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105"
               >
                 <div
-                  className={`inline-flex p-4 rounded-xl bg-gradient-to-br ${useCase.gradient} mb-6 group-hover:scale-110 transition-transform duration-300`}
+                  className={`inline-flex p-4 rounded-xl bg-linear-to-br ${useCase.gradient} mb-6 group-hover:scale-110 transition-transform duration-300`}
                 >
                   <Icon className="w-8 h-8 text-white" />
                 </div>

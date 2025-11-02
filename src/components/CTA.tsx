@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section
       id="download"
-      className="py-24 bg-gradient-to-br from-emerald-500 to-cyan-500"
+      className="py-24 bg-linear-to-br from-emerald-500 to-cyan-500"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
