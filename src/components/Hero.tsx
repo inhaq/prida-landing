@@ -67,7 +67,8 @@ export default function Hero() {
             style={{ animationDelay: '0.4s', animationFillMode: 'both' }}
           >
             <a
-              href="#download"
+              href="/prida.zip"
+              download="prida.zip"
               style={{ textShadow: 'rgba(0, 0, 0, 0.2) 0px 0px 6px' }}
               className="px-6 py-3 font-semibold text-white transition-all duration-200 border rounded shadow-lg group backdrop-blur-sm border-white/30  bg-[rgba(255,160,37,0.66)] hover:bg-[rgba(255,160,37,0.33)]"
             >
@@ -77,7 +78,9 @@ export default function Hero() {
               </span>
             </a>
             <a
-              href="#learn-more"
+              href="https://youtu.be/FTIIbaBSGyk"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 font-semibold text-white transition-all duration-200 border rounded bg-white/10 hover:bg-white/20 backdrop-blur-sm border-white/20"
             >
               See How It Works

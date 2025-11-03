@@ -15,20 +15,6 @@ export default function Footer() {
             on-device AI.
           </p>
 
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-emerald-400 transition-colors">
-              Privacy Policy
-            </a>
-            <span className="text-slate-600">•</span>
-            <a href="#" className="hover:text-emerald-400 transition-colors">
-              Terms of Service
-            </a>
-            <span className="text-slate-600">•</span>
-            <a href="#" className="hover:text-emerald-400 transition-colors">
-              Contact
-            </a>
-          </div>
-
           <div className="pt-6 border-t border-slate-800 w-full text-center">
             <p className="text-sm text-slate-500">
               © 2025 PrIDA. Built with privacy in mind. All data stays on your
