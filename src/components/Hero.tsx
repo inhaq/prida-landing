@@ -89,6 +89,23 @@ export default function Hero() {
         </div>
       </div>
 
+      <div
+        className="absolute transform -translate-x-1/2 bottom-4 left-1/2 animate-fade-in"
+        style={{ animationDelay: '0.8s', animationFillMode: 'both' }}
+      >
+        <a
+          href="https://peerlist.io/inhaq/project/prida"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://peerlist.io/api/v1/projects/embed/PRJH6A77B7GEG6ALOIGAPD7LR8KALL?showUpvote=false&theme=dark"
+            alt="Prida"
+            style={{ width: 'auto', height: '72px' }}
+          />
+        </a>
+      </div>
+
       <div className="absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/20 to-transparent"></div>
     </section>
   );
