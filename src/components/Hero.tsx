@@ -43,7 +43,7 @@ export default function Hero() {
             Free. Secure. No Sign-Up. Always Ready.
           </div>
           <h1
-            className="mb-4 text-2xl font-light tracking-normal text-white/80 sm:text-6xl animate-fade-in-up"
+            className="mb-4 text-5xl font-light tracking-normal text-white/80 sm:text-6xl animate-fade-in-up"
             style={{
               fontFamily: 'Cal Sans, sans-serif',
               textShadow: 'rgba(0, 0, 0, 0.2) 0px 0px 6px',
